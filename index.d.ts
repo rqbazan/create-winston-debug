@@ -5,8 +5,9 @@ declare module 'create-winston-debug' {
     rootDir: string
     prefix: string
     debug?: string
-    logger?: (msg: string) => void
   }
+
+  export function formatTime(timestamp: number): string
 
   export function createDebug(
     module: NodeModule,
