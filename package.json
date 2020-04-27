@@ -1,6 +1,6 @@
 {
   "name": "create-winston-debug",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Create a debug function similar to the debug package, but using the Winston Console Transport",
   "main": "index.js",
   "types": "index.d.ts",
