@@ -14,7 +14,7 @@ yarn add create-winston-debug
 
 ```js
 // src/debug.js
-import { createDebug as _createDebug } from 'create-debug'
+import { createDebug as _createDebug } from 'create-winston-debug'
 
 const configuration = {
   prefix: 'myapp',
