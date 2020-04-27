@@ -1,0 +1,27 @@
+name: CI
+
+on: [push]
+
+jobs:
+  testing:
+    name: testing
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+
+      - name: Set up Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 12
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Testing
+        run: yarn test
+
+        env:
+          CI: true

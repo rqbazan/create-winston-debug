@@ -1,0 +1,35 @@
+{
+  "name": "create-winston-debug",
+  "version": "0.0.1",
+  "description": "Create a debug function similar to the debug package, but using the Winston Console Transport",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rqbazan/create-winston-debug.git"
+  },
+  "author": {
+    "name": "Ricardo Alexis Quiroz Bazan",
+    "email": "raquirozbazan@gmail.com",
+    "url": "http://github.com/rqbazan"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "jest": "^25.4.0",
+    "logform": "^2.1.2",
+    "set-tz": "^0.2.0",
+    "winston": "^3.2.1"
+  },
+  "dependencies": {
+    "create-debug": "^0.3.0"
+  },
+  "peerDependencies": {
+    "logform": "^2.1.2",
+    "winston": "^3.2.1"
+  }
+}
